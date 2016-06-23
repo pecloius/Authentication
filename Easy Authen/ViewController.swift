@@ -49,15 +49,62 @@ class ViewController: UIViewController {
             
             print("Have Space")
             
-            // Alert Dialog
-            let myAlert = UIAlertController(title: "ช่องว่าง", message: "กรุณากรอกข้อมูลให้ครบ", preferredStyle: UIAlertControllerStyle.Alert)
-            myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(myAlert, animated: true, completion: nil)
-            
+            myAlertDialog("ช่องว่าง", strMessage: "กรุณากรอกข้อมูลให้ครบ")
             
         
+        } else {
+        
+            var trueUser = ["test1", "test2", "test3"]
+            var truePass = ["123", "456", "789"]
+            
+            var index = 0
+            var status = false
+            var myTruePass = ""
+            
+            
+            
+            for myFor in trueUser {
+                if strUser == myFor {
+                    status = true
+                    myTruePass = truePass[index]
+                    
+                } //
+                
+                index += 1
+            } // for
+            
+            
+            if status {
+                
+                if (strPass == myTruePass) {
+                    myAlertDialog("ยินดีต้อนรับ", strMessage: "เข้าสู่ระบบแล้วครับ")
+                } else {
+                
+                    myAlertDialog("Password ผิด", strMessage: "กรุณากรอก Password ให้ถูกต้อง")
+                
+                }
+                
+            } else {
+            
+                myAlertDialog("User ผิด", strMessage: "กรุณากรอก User ให้ถูกต้อง")
+            
+            }
+            
+            
         
         } // if
+    
+        
+    
+    } // CheckSpace
+    
+    
+    func myAlertDialog(strTitle:String, strMessage:String) -> Void {
+        
+        // Alert Dialog
+        let myAlert = UIAlertController(title: strTitle, message: strMessage, preferredStyle: UIAlertControllerStyle.Alert)
+        myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(myAlert, animated: true, completion: nil)
     }
 
 } // Class
