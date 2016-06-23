@@ -14,6 +14,17 @@
 		623904701D1BB94700413F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6239046E1D1BB94700413F41 /* LaunchScreen.storyboard */; };
 		6239047B1D1BB94700413F41 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239047A1D1BB94700413F41 /* Easy_AuthenTests.swift */; };
 		623904861D1BB94700413F41 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623904851D1BB94700413F41 /* Easy_AuthenUITests.swift */; };
+		623904941D1BD23000413F41 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623904931D1BD23000413F41 /* ServiceViewController.swift */; };
+		6239049F1D1BD74800413F41 /* ishihara_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 623904951D1BD74800413F41 /* ishihara_01.png */; };
+		623904A01D1BD74800413F41 /* ishihara_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 623904961D1BD74800413F41 /* ishihara_02.png */; };
+		623904A11D1BD74800413F41 /* ishihara_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 623904971D1BD74800413F41 /* ishihara_03.png */; };
+		623904A21D1BD74800413F41 /* ishihara_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 623904981D1BD74800413F41 /* ishihara_04.png */; };
+		623904A31D1BD74800413F41 /* ishihara_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 623904991D1BD74800413F41 /* ishihara_05.png */; };
+		623904A41D1BD74800413F41 /* ishihara_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 6239049A1D1BD74800413F41 /* ishihara_06.png */; };
+		623904A51D1BD74800413F41 /* ishihara_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 6239049B1D1BD74800413F41 /* ishihara_07.png */; };
+		623904A61D1BD74800413F41 /* ishihara_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 6239049C1D1BD74800413F41 /* ishihara_08.png */; };
+		623904A71D1BD74800413F41 /* ishihara_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 6239049D1D1BD74800413F41 /* ishihara_09.png */; };
+		623904A81D1BD74800413F41 /* ishihara_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6239049E1D1BD74800413F41 /* ishihara_10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		623904811D1BB94700413F41 /* Easy AuthenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623904851D1BB94700413F41 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
 		623904871D1BB94700413F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623904931D1BD23000413F41 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		623904951D1BD74800413F41 /* ishihara_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_01.png; path = ../../Resource/ishihara/ishihara_01.png; sourceTree = "<group>"; };
+		623904961D1BD74800413F41 /* ishihara_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_02.png; path = ../../Resource/ishihara/ishihara_02.png; sourceTree = "<group>"; };
+		623904971D1BD74800413F41 /* ishihara_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_03.png; path = ../../Resource/ishihara/ishihara_03.png; sourceTree = "<group>"; };
+		623904981D1BD74800413F41 /* ishihara_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_04.png; path = ../../Resource/ishihara/ishihara_04.png; sourceTree = "<group>"; };
+		623904991D1BD74800413F41 /* ishihara_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_05.png; path = ../../Resource/ishihara/ishihara_05.png; sourceTree = "<group>"; };
+		6239049A1D1BD74800413F41 /* ishihara_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_06.png; path = ../../Resource/ishihara/ishihara_06.png; sourceTree = "<group>"; };
+		6239049B1D1BD74800413F41 /* ishihara_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_07.png; path = ../../Resource/ishihara/ishihara_07.png; sourceTree = "<group>"; };
+		6239049C1D1BD74800413F41 /* ishihara_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_08.png; path = ../../Resource/ishihara/ishihara_08.png; sourceTree = "<group>"; };
+		6239049D1D1BD74800413F41 /* ishihara_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_09.png; path = ../../Resource/ishihara/ishihara_09.png; sourceTree = "<group>"; };
+		6239049E1D1BD74800413F41 /* ishihara_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_10.png; path = ../../Resource/ishihara/ishihara_10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,23 @@
 		623904641D1BB94700413F41 /* Easy Authen */ = {
 			isa = PBXGroup;
 			children = (
+				623904951D1BD74800413F41 /* ishihara_01.png */,
+				623904961D1BD74800413F41 /* ishihara_02.png */,
+				623904971D1BD74800413F41 /* ishihara_03.png */,
+				623904981D1BD74800413F41 /* ishihara_04.png */,
+				623904991D1BD74800413F41 /* ishihara_05.png */,
+				6239049A1D1BD74800413F41 /* ishihara_06.png */,
+				6239049B1D1BD74800413F41 /* ishihara_07.png */,
+				6239049C1D1BD74800413F41 /* ishihara_08.png */,
+				6239049D1D1BD74800413F41 /* ishihara_09.png */,
+				6239049E1D1BD74800413F41 /* ishihara_10.png */,
 				623904651D1BB94700413F41 /* AppDelegate.swift */,
 				623904671D1BB94700413F41 /* ViewController.swift */,
 				623904691D1BB94700413F41 /* Main.storyboard */,
 				6239046C1D1BB94700413F41 /* Assets.xcassets */,
 				6239046E1D1BB94700413F41 /* LaunchScreen.storyboard */,
 				623904711D1BB94700413F41 /* Info.plist */,
+				623904931D1BD23000413F41 /* ServiceViewController.swift */,
 			);
 			path = "Easy Authen";
 			sourceTree = "<group>";
@@ -229,9 +262,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623904A21D1BD74800413F41 /* ishihara_04.png in Resources */,
+				623904A01D1BD74800413F41 /* ishihara_02.png in Resources */,
+				623904A61D1BD74800413F41 /* ishihara_08.png in Resources */,
+				623904A71D1BD74800413F41 /* ishihara_09.png in Resources */,
 				623904701D1BB94700413F41 /* LaunchScreen.storyboard in Resources */,
 				6239046D1D1BB94700413F41 /* Assets.xcassets in Resources */,
+				623904A81D1BD74800413F41 /* ishihara_10.png in Resources */,
+				623904A11D1BD74800413F41 /* ishihara_03.png in Resources */,
+				623904A51D1BD74800413F41 /* ishihara_07.png in Resources */,
 				6239046B1D1BB94700413F41 /* Main.storyboard in Resources */,
+				623904A41D1BD74800413F41 /* ishihara_06.png in Resources */,
+				6239049F1D1BD74800413F41 /* ishihara_01.png in Resources */,
+				623904A31D1BD74800413F41 /* ishihara_05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +301,7 @@
 			files = (
 				623904681D1BB94700413F41 /* ViewController.swift in Sources */,
 				623904661D1BB94700413F41 /* AppDelegate.swift in Sources */,
+				623904941D1BD23000413F41 /* ServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

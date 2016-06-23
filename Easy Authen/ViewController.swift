@@ -54,8 +54,8 @@ class ViewController: UIViewController {
         
         } else {
         
-            var trueUser = ["test1", "test2", "test3"]
-            var truePass = ["123", "456", "789"]
+            var trueUser = ["pecko", "loius", "Chom"]
+            var truePass = ["1234", "4567", "7890"]
             
             var index = 0
             var status = false
@@ -77,7 +77,12 @@ class ViewController: UIViewController {
             if status {
                 
                 if (strPass == myTruePass) {
-                    myAlertDialog("ยินดีต้อนรับ", strMessage: "เข้าสู่ระบบแล้วครับ")
+                    
+                    let goToService = self.storyboard?.instantiateViewControllerWithIdentifier("serviceID") as! ServiceViewController
+                    self.navigationController?.pushViewController(goToService, animated: true)
+                    
+                    myAlertDialog("ยินดีต้อนรับ", strMessage: "เข้าสู่การทดสอบสายตาแล้วครับ")
+                    
                 } else {
                 
                     myAlertDialog("Password ผิด", strMessage: "กรุณากรอก Password ให้ถูกต้อง")
