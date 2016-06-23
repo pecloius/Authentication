@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623904661D1BB94700413F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623904651D1BB94700413F41 /* AppDelegate.swift */; };
+		623904681D1BB94700413F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623904671D1BB94700413F41 /* ViewController.swift */; };
+		6239046B1D1BB94700413F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623904691D1BB94700413F41 /* Main.storyboard */; };
+		6239046D1D1BB94700413F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6239046C1D1BB94700413F41 /* Assets.xcassets */; };
+		623904701D1BB94700413F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6239046E1D1BB94700413F41 /* LaunchScreen.storyboard */; };
+		6239047B1D1BB94700413F41 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239047A1D1BB94700413F41 /* Easy_AuthenTests.swift */; };
+		623904861D1BB94700413F41 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623904851D1BB94700413F41 /* Easy_AuthenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		623904771D1BB94700413F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6239045A1D1BB94700413F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623904611D1BB94700413F41;
+			remoteInfo = "Easy Authen";
+		};
+		623904821D1BB94700413F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6239045A1D1BB94700413F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623904611D1BB94700413F41;
+			remoteInfo = "Easy Authen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		623904621D1BB94700413F41 /* Easy Authen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Authen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623904651D1BB94700413F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		623904671D1BB94700413F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6239046A1D1BB94700413F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6239046C1D1BB94700413F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6239046F1D1BB94700413F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		623904711D1BB94700413F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623904761D1BB94700413F41 /* Easy AuthenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6239047A1D1BB94700413F41 /* Easy_AuthenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenTests.swift; sourceTree = "<group>"; };
+		6239047C1D1BB94700413F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623904811D1BB94700413F41 /* Easy AuthenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623904851D1BB94700413F41 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
+		623904871D1BB94700413F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6239045F1D1BB94700413F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623904731D1BB94700413F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6239047E1D1BB94700413F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623904591D1BB94700413F41 = {
+			isa = PBXGroup;
+			children = (
+				623904641D1BB94700413F41 /* Easy Authen */,
+				623904791D1BB94700413F41 /* Easy AuthenTests */,
+				623904841D1BB94700413F41 /* Easy AuthenUITests */,
+				623904631D1BB94700413F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		623904631D1BB94700413F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623904621D1BB94700413F41 /* Easy Authen.app */,
+				623904761D1BB94700413F41 /* Easy AuthenTests.xctest */,
+				623904811D1BB94700413F41 /* Easy AuthenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623904641D1BB94700413F41 /* Easy Authen */ = {
+			isa = PBXGroup;
+			children = (
+				623904651D1BB94700413F41 /* AppDelegate.swift */,
+				623904671D1BB94700413F41 /* ViewController.swift */,
+				623904691D1BB94700413F41 /* Main.storyboard */,
+				6239046C1D1BB94700413F41 /* Assets.xcassets */,
+				6239046E1D1BB94700413F41 /* LaunchScreen.storyboard */,
+				623904711D1BB94700413F41 /* Info.plist */,
+			);
+			path = "Easy Authen";
+			sourceTree = "<group>";
+		};
+		623904791D1BB94700413F41 /* Easy AuthenTests */ = {
+			isa = PBXGroup;
+			children = (
+				6239047A1D1BB94700413F41 /* Easy_AuthenTests.swift */,
+				6239047C1D1BB94700413F41 /* Info.plist */,
+			);
+			path = "Easy AuthenTests";
+			sourceTree = "<group>";
+		};
+		623904841D1BB94700413F41 /* Easy AuthenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				623904851D1BB94700413F41 /* Easy_AuthenUITests.swift */,
+				623904871D1BB94700413F41 /* Info.plist */,
+			);
+			path = "Easy AuthenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623904611D1BB94700413F41 /* Easy Authen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6239048A1D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy Authen" */;
+			buildPhases = (
+				6239045E1D1BB94700413F41 /* Sources */,
+				6239045F1D1BB94700413F41 /* Frameworks */,
+				623904601D1BB94700413F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Authen";
+			productName = "Easy Authen";
+			productReference = 623904621D1BB94700413F41 /* Easy Authen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		623904751D1BB94700413F41 /* Easy AuthenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6239048D1D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy AuthenTests" */;
+			buildPhases = (
+				623904721D1BB94700413F41 /* Sources */,
+				623904731D1BB94700413F41 /* Frameworks */,
+				623904741D1BB94700413F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623904781D1BB94700413F41 /* PBXTargetDependency */,
+			);
+			name = "Easy AuthenTests";
+			productName = "Easy AuthenTests";
+			productReference = 623904761D1BB94700413F41 /* Easy AuthenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		623904801D1BB94700413F41 /* Easy AuthenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623904901D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy AuthenUITests" */;
+			buildPhases = (
+				6239047D1D1BB94700413F41 /* Sources */,
+				6239047E1D1BB94700413F41 /* Frameworks */,
+				6239047F1D1BB94700413F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623904831D1BB94700413F41 /* PBXTargetDependency */,
+			);
+			name = "Easy AuthenUITests";
+			productName = "Easy AuthenUITests";
+			productReference = 623904811D1BB94700413F41 /* Easy AuthenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6239045A1D1BB94700413F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pecko Loius";
+				TargetAttributes = {
+					623904611D1BB94700413F41 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					623904751D1BB94700413F41 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 623904611D1BB94700413F41;
+					};
+					623904801D1BB94700413F41 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 623904611D1BB94700413F41;
+					};
+				};
+			};
+			buildConfigurationList = 6239045D1D1BB94700413F41 /* Build configuration list for PBXProject "Easy Authen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623904591D1BB94700413F41;
+			productRefGroup = 623904631D1BB94700413F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623904611D1BB94700413F41 /* Easy Authen */,
+				623904751D1BB94700413F41 /* Easy AuthenTests */,
+				623904801D1BB94700413F41 /* Easy AuthenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623904601D1BB94700413F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623904701D1BB94700413F41 /* LaunchScreen.storyboard in Resources */,
+				6239046D1D1BB94700413F41 /* Assets.xcassets in Resources */,
+				6239046B1D1BB94700413F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623904741D1BB94700413F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6239047F1D1BB94700413F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6239045E1D1BB94700413F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623904681D1BB94700413F41 /* ViewController.swift in Sources */,
+				623904661D1BB94700413F41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623904721D1BB94700413F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6239047B1D1BB94700413F41 /* Easy_AuthenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6239047D1D1BB94700413F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623904861D1BB94700413F41 /* Easy_AuthenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		623904781D1BB94700413F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623904611D1BB94700413F41 /* Easy Authen */;
+			targetProxy = 623904771D1BB94700413F41 /* PBXContainerItemProxy */;
+		};
+		623904831D1BB94700413F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623904611D1BB94700413F41 /* Easy Authen */;
+			targetProxy = 623904821D1BB94700413F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		623904691D1BB94700413F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6239046A1D1BB94700413F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6239046E1D1BB94700413F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6239046F1D1BB94700413F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		623904881D1BB94700413F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		623904891D1BB94700413F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6239048B1D1BB94700413F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Authen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-Authen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6239048C1D1BB94700413F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Authen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-Authen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6239048E1D1BB94700413F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy AuthenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-AuthenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Authen.app/Easy Authen";
+			};
+			name = Debug;
+		};
+		6239048F1D1BB94700413F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy AuthenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-AuthenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Authen.app/Easy Authen";
+			};
+			name = Release;
+		};
+		623904911D1BB94700413F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy AuthenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-AuthenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Authen";
+			};
+			name = Debug;
+		};
+		623904921D1BB94700413F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy AuthenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.PeckoLoius.Easy-AuthenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Authen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6239045D1D1BB94700413F41 /* Build configuration list for PBXProject "Easy Authen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623904881D1BB94700413F41 /* Debug */,
+				623904891D1BB94700413F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6239048A1D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy Authen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6239048B1D1BB94700413F41 /* Debug */,
+				6239048C1D1BB94700413F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6239048D1D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy AuthenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6239048E1D1BB94700413F41 /* Debug */,
+				6239048F1D1BB94700413F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		623904901D1BB94700413F41 /* Build configuration list for PBXNativeTarget "Easy AuthenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623904911D1BB94700413F41 /* Debug */,
+				623904921D1BB94700413F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6239045A1D1BB94700413F41 /* Project object */;
+}
